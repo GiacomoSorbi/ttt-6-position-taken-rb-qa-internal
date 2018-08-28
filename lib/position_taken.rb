@@ -1,3 +1,3 @@
-def position_taken?(board, index)
-  !!board[index] || [" ", ""].include(board[index])
+def position_taken?(board, pos)
+  !!board[pos] || [" ", ""].include?(board[pos])
 end
